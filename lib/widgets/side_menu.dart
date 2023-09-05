@@ -17,19 +17,13 @@ class SideMenu extends StatelessWidget {
               ),
               child: Column(
                 children: [
-                  InfoText(
-                    title: 'Residence',
-                    text: 'Yemen',
-                  ),
-                  InfoText(
-                    title: 'City',
-                    text: 'Ibb',
-                  ),
-                  InfoText(
-                    title: 'Birth Year',
-                    text: '1998',
-                  ),
+                  PersonalInfo(),
                   Skills(),
+                  SizedBox(height: defaultPadding),
+                  Coding(),
+                  Knowledge(),
+                  DownloadCV(),
+                  SocialMedia()
                 ],
               ),
             ),

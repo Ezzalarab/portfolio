@@ -6,7 +6,7 @@ class MyInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: 1.0,
+      aspectRatio: 1.5,
       child: Container(
         color: const Color(0xFF242430),
         child: Column(

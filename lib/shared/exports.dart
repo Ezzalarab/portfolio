@@ -1,6 +1,14 @@
 export 'package:flutter/material.dart';
 export 'package:google_fonts/google_fonts.dart';
+export 'package:flutter_svg/svg.dart';
 
+export '../widgets/personal_info.dart';
+export '../widgets/download_cv.dart';
+export '../widgets/social_media.dart';
+export '../widgets/knowledge_text.dart';
+export '../widgets/knowledge.dart';
+export '../widgets/coding.dart';
+export '../widgets/animated_linear_percentage.dart';
 export '../widgets/info_text.dart';
 export '../widgets/animated_percentage.dart';
 export '../widgets/my_info.dart';
