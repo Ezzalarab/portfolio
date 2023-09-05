@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
               .copyWith(
                   bodyLarge: const TextStyle(color: bodyTextColor),
                   bodyMedium: const TextStyle(color: bodyTextColor))),
-      home: const MainPage(),
+      home: const HomePage(),
     );
   }
 }
