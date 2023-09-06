@@ -1,7 +1,7 @@
 class Project {
-  final String? title, description;
+  final String title, description;
 
-  Project({this.title, this.description});
+  Project({required this.title, required this.description});
 }
 
 List<Project> demoProjects = [

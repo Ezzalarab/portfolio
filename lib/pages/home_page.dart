@@ -1,3 +1,5 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
+
 import '../shared/exports.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,6 +10,9 @@ class HomePage extends StatelessWidget {
     return const MainPage(
       children: [
         HomeBanner(),
+        HighLights(),
+        MyProjects(),
+        Recommedations(),
       ],
     );
   }

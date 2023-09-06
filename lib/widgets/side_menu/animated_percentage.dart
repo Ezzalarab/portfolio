@@ -1,4 +1,4 @@
-import '../shared/exports.dart';
+import '../../shared/exports.dart';
 
 class AnimatedPercentage extends StatelessWidget {
   const AnimatedPercentage({

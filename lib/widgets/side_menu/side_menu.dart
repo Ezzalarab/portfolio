@@ -1,5 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import '../shared/exports.dart';
+import '../../shared/exports.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({super.key});

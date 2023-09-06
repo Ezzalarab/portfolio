@@ -1,4 +1,4 @@
-import '../shared/exports.dart';
+import '../../shared/exports.dart';
 
 class KnowledgeText extends StatelessWidget {
   const KnowledgeText({

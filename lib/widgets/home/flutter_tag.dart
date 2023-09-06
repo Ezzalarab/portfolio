@@ -1,4 +1,4 @@
-import '../shared/exports.dart';
+import '../../shared/exports.dart';
 
 class FlutterTag extends StatelessWidget {
   const FlutterTag({
