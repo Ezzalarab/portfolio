@@ -12,16 +12,31 @@ class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: (Responsive.isDesktop(context))
+          ? null
+          : AppBar(
+              backgroundColor: bgColor,
+              leading: Builder(builder: (context) {
+                return IconButton(
+                  icon: const Icon(Icons.menu),
+                  onPressed: () {
+                    Scaffold.of(context).openDrawer();
+                  },
+                );
+              }),
+            ),
+      drawer: const SideMenu(),
       body: Center(
         child: Container(
           constraints: const BoxConstraints(maxWidth: maxWidth),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Expanded(
-                flex: 3,
-                child: SideMenu(),
-              ),
+              if (Responsive.isDesktop(context))
+                const Expanded(
+                  flex: 3,
+                  child: SideMenu(),
+                ),
               const SizedBox(width: defaultPadding),
               Expanded(
                 flex: 7,
@@ -37,6 +52,7 @@ class MainPage extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(width: defaultPadding),
             ],
           ),
         ),

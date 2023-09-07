@@ -3,12 +3,15 @@ export 'package:flutter/material.dart';
 export 'package:flutter_svg/svg.dart';
 export 'package:google_fonts/google_fonts.dart';
 
+export '../widgets/side_menu/my_build_animated_text.dart';
+
+export 'colors.dart';
+export 'constatnts.dart';
+export 'responsive.dart';
 export '../models/recommendation.dart';
 export '../models/project.dart';
 export '../pages/home_page.dart';
 export '../pages/main_page.dart';
-export '../shared/colors.dart';
-export '../shared/constatnts.dart';
 export '../widgets/side_menu/animated_linear_percentage.dart';
 export '../widgets/side_menu/animated_percentage.dart';
 export '../widgets/side_menu/coding.dart';
@@ -25,7 +28,6 @@ export '../widgets/home/home_banner.dart';
 export '../widgets/side_menu/info_text.dart';
 export '../widgets/side_menu/knowledge.dart';
 export '../widgets/side_menu/knowledge_text.dart';
-export '../widgets/side_menu/my_build_animated_text.dart';
 export '../widgets/side_menu/my_info.dart';
 export '../widgets/side_menu/personal_info.dart';
 export '../widgets/side_menu/side_menu.dart';

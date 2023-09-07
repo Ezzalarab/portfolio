@@ -20,19 +20,19 @@ class Coding extends StatelessWidget {
         ),
         const AnimatedLinearPercentage(
           label: 'Dart',
-          percentage: 0.9,
+          percentage: 0.95,
         ),
         const AnimatedLinearPercentage(
           label: 'PHP',
-          percentage: 0.7,
-        ),
-        const AnimatedLinearPercentage(
-          label: 'C#',
           percentage: 0.8,
         ),
         const AnimatedLinearPercentage(
+          label: 'C#',
+          percentage: 0.75,
+        ),
+        const AnimatedLinearPercentage(
           label: 'Python',
-          percentage: 0.7,
+          percentage: 0.65,
         ),
         const AnimatedLinearPercentage(
           label: 'JavaScript',
