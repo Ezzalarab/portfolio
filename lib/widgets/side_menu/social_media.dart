@@ -23,7 +23,10 @@ class SocialMedia extends StatelessWidget {
           ),
           IconButton(
             onPressed: () {},
-            icon: SvgPicture.asset('assets/icons/twitter.svg'),
+            icon: SvgPicture.asset(
+              'assets/icons/x-logo-black.svg',
+              color: const Color(0xAAAAAAAA),
+            ),
           ),
           IconButton(
             onPressed: () {},
